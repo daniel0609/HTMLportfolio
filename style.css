@@ -16,6 +16,7 @@ body
 {
 	width: 960px;
 	margin: 20px;
+	text-align: center;
 }
 .square
 {
@@ -27,17 +28,20 @@ body
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
-	width: 600px;
+	width: 480px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 #clock
 {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
+	width: 480px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 .tile1
 {
@@ -74,7 +78,7 @@ body
 {
 	margin: 10px;
 	width: 480px;
-	height: 142px;
+	height: 304px;
 	background-color: #666666;
 }
 .yt
@@ -83,5 +87,26 @@ body
 	width: 105px;
 	height: 142px;
 	background-color: #d94348;
+	float:left;
+}.fb
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	float:left;
+}.gplus
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+	float:left;
+}.tw
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
 	float:left;
 }
