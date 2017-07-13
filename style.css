@@ -18,7 +18,7 @@ body
 }
 .square
 {
-	width: 50%;
+	width: 500px;
 	float: left;
 }
 #logo
@@ -74,5 +74,13 @@ body
 	margin: 10px;
 	width: 480px;
 	height: 142px;
-	background-color: #ee5a32;
+	background-color: #666666;
+}
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float:left;
 }
