@@ -28,20 +28,20 @@ body
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
-	width: 480px;
+	width: 580px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: left;
 }
 #clock
 {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
-	width: 480px;
+	width: 380px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: left;
 }
 .tile1
 {
@@ -52,6 +52,7 @@ body
 	float:left;
 	text-align: center;
 }
+/*po najechaniu kursorem*/
 .tile1:hover 
 {
 	background-color: #1F84c2
@@ -96,10 +97,11 @@ body
 .tile5
 {
 	margin: 10px;
-	width: 480px;
-	height: 304px;
+	width: 420px;
+	height: 244px;
 	background-color: #666666;
-	text-align: center;
+	text-align: justify;
+	padding: 30px;
 }
 .yt
 {
@@ -154,4 +156,25 @@ body
 .ig:hover 
 {
 	background-color: #cc40cc;
+}
+a.tilelink
+{
+	color:#ffffff;
+	text-decoration: none;
+	display: block;   /*zachowuj się jak prostokąt*/
+	width: 230px;
+	height: 142px;	
+}
+a.sociallink
+{
+	color:#ffffff;
+	text-decoration: none;
+	display: block;   /*zachowuj się jak prostokąt*/
+	width: 105px;
+	height: 142px;	
+}
+a.logolink
+{
+	color: #ffffff;
+	text-decoration: none;
 }
